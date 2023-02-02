@@ -65,7 +65,7 @@ async def start(client, message):
 
                                       [InlineKeyboardButton("Movie Channel", url="https://t.me/MoviesU2")]
 
-                                      ])
+                                      ]))
             except:
                 return
         else:
@@ -83,7 +83,7 @@ async def start(client, message):
                                
                                   [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/MR_BOTS_UP")],
                                       [InlineKeyboardButton("Movie Channel", url="https://t.me/MoviesU2")]
-                                      ])          
+                                      ]))          
     
 
 
@@ -124,7 +124,7 @@ async def send_doc(client, message):
 
                                       [InlineKeyboardButton("Movie Channel", url="https://t.me/MoviesU2")]
 
-                                      ])
+                                      ]))
         await message.reply_text(text=f"🦋")
         return 
 
